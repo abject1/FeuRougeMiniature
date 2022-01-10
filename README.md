@@ -7,5 +7,8 @@ Liste de matériel : https://mega.nz/file/1Bg0CLwR#U1BK2CU7RRNtWMGjiory8Mhap8zvj
 Lien du code sur GitHub : 
 https://github.com/abject1/FeuRougeMiniature
 
+Lien Thingeverse :
+https://www.thingiverse.com/thing:5194775
+
 Lien Youtube du premier tuto : 
 Soon
