@@ -1,0 +1,26 @@
+int led_verte = 2;
+int led_orange = 3;
+int led_rouge = 4;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  while(!Serial);
+
+  pinMode(led_verte, OUTPUT);
+  pinMode(led_orange, OUTPUT);
+  pinMode(led_rouge, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(led_verte, HIGH);
+  delay(10000);
+  digitalWrite(led_verte, LOW);
+  digitalWrite(led_rouge, HIGH);
+  delay(25000);
+  digitalWrite(led_rouge, LOW);
+  digitalWrite(led_orange, HIGH);
+  delay(1500);
+  digitalWrite(led_orange, LOW);
+}
